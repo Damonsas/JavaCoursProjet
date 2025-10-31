@@ -1,4 +1,4 @@
-package JavaProjet.TpRPG;
+package TpRPG;
 
 public class Jeu {
 
