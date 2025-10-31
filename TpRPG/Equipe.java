@@ -1,4 +1,4 @@
-package JavaProjet.TpRPG;
+package TpRPG;
 
 import java.util.ArrayList;
 
