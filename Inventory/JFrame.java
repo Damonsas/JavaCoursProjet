@@ -1,4 +1,4 @@
-package JavaProjet.Inventory;
+package Inventory;
 
 public class JFrame {
     String Title;

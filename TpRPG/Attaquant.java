@@ -1,4 +1,4 @@
-package JavaProjet.TpRPG;
+package TpRPG;
 
 public class Attaquant {
     public String name;

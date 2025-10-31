@@ -1,4 +1,3 @@
-package JavaProjet;
 
 import static java.util.Arrays.stream;
 

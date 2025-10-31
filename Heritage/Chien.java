@@ -1,4 +1,4 @@
-package JavaProjet.Heritage;
+package Heritage;
 
 public class Chien extends Animal{
     public Chien(int age) {

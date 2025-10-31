@@ -1,4 +1,4 @@
-package JavaProjet.TpEntreprise;
+package TpEntreprise;
 
 public class Main {
     public static void main(String[]args){

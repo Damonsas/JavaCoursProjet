@@ -1,4 +1,4 @@
-package JavaProjet.Heritage;
+package Heritage;
 
 public class Animal {
     public int age;
