@@ -1,4 +1,4 @@
-package JavaProjet.TpEntreprise;
+package TpEntreprise;
 
 import java.util.ArrayList;
 
