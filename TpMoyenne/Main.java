@@ -1,4 +1,4 @@
-package JavaProjet.TpMoyenne;
+package TpMoyenne;
 
 
 import java.util.ArrayList;
