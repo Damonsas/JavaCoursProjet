@@ -1,4 +1,4 @@
-package JavaProjet.Inventory;
+package Inventory;
 
 public class Item {
      public String name;
