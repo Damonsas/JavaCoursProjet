@@ -1,4 +1,4 @@
-package JavaProjet.TpEntreprise;
+package TpEntreprise;
 
 public class Employes {
     public String firstname;
