@@ -1,4 +1,4 @@
-package JavaProjet.Heritage;
+package Heritage;
 
 public class Chat extends Animal{
     public Chat(int age){
