@@ -1,6 +1,7 @@
-package JavaProjet.Inventory;
+package Inventory;
 
 import java.util.ArrayList;
+
 
 public class GameInventory {
     ArrayList<Item> items = new ArrayList<>();
