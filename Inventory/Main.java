@@ -3,7 +3,7 @@ package Inventory;
 public class Main {
     public static void main(String[] args) {
         // Créer une instance de la fenêtre personnalisée
-        CustomFrame frame = new CustomFrame("Hello World");
+        CustomFrame frame = new CustomFrame("Inventaire du jeu");
         frame.setSize(250, 250);
         frame.setDefaultClose(true);  // La fenêtre ferme l'application à la fermeture
         frame.setVisibility(true);  // Afficher la fenêtre
