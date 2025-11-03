@@ -1,25 +1,22 @@
 package Inventory;
 
-import javax.swing.JFrame;  // Importer la vraie classe JFrame
+import javax.swing.JFrame;
 
-public class CustomFrame {  // Renommer la classe pour éviter le conflit avec JFrame
-    private JFrame frame;  // Utiliser un objet JFrame de Swing
+public class CustomFrame {
+    private JFrame frame;
 
     public CustomFrame(String title) {
-        frame = new JFrame(title); // Créer un objet JFrame avec un titre
+        frame = new JFrame(title);
     }
 
-    // Méthode pour définir la visibilité
     public void setVisibility(boolean visible) {
         frame.setVisible(visible);
     }
 
-    // Méthode pour définir la taille de la fenêtre
     public void setSize(int width, int height) {
         frame.setSize(width, height);
     }
 
-    // Méthode pour définir la fermeture de la fenêtre
     public void setDefaultClose(boolean exitOnClose) {
         if (exitOnClose) {
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
