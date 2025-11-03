@@ -2,8 +2,11 @@ package TpRPGAttribut;
 
 public class Gameplay {
     public static void play(Equipe e1, Equipe e2) {
-        Personnage p1;
-        Personnage p2;
+        Personnage p1 = e1.getNextAlive();
+        Personnage p2 = e2.getNextAlive();
+
+        if(p1 == null || p2 == null)
+            return;
         boolean hordeStart = Personnage.initiative();
         Personnage attaquant = hordeStart ? p1 : p2;
         Personnage defenseur = hordeStart ? p2 : p1;

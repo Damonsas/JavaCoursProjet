@@ -10,6 +10,14 @@ public class Equipe {
         personnages.add(personnage);
     }
 
-
+    public Personnage getNextAlive(){
+        for (Personnage p : personnages){
+            if (!p.isDead()) return p;
+        }
+        return null;
+    }
+    public boolean hasAlive(){
+        return getNextAlive() != null;
+    }
 }
 
