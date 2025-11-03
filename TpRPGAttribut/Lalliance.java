@@ -7,4 +7,5 @@ public class Lalliance extends Personnage {
         super(name, hp, power);
         this.metier = metier;
     }
+
 }

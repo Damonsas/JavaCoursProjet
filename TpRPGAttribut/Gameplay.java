@@ -26,5 +26,6 @@ public class Gameplay {
                 defenseur = temp;
             }
         }
+        System.out.println("Gagnant : " + (p1.isDead() ? p2.name : p1.name));
     }
 }
