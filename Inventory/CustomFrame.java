@@ -2,10 +2,11 @@ package Inventory;
 
 import javax.swing.JFrame;
 
-public class CustomFrame {
+public class CustomFrame extends Image{
     private JFrame frame;
 
-    public CustomFrame(String title) {
+    public CustomFrame(String title, int widht, int height) {
+        super(widht, height);
         frame = new JFrame(title);
     }
 
