@@ -1,6 +1,6 @@
 package Inventory;
 
-import javax.swing.JFrame;
+import javax.swing.*;
 
 public class CustomFrame extends Image{
     private JFrame frame;
@@ -25,6 +25,10 @@ public class CustomFrame extends Image{
             frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         }
     }
+
+    JButton button = new JButton();
+    JLabel label = new JLabel();
+
 }
 
 
