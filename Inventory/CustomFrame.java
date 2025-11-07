@@ -2,11 +2,10 @@ package Inventory;
 
 import javax.swing.*;
 
-public class CustomFrame extends Image{
+public class CustomFrame {
     private JFrame frame;
 
-    public CustomFrame(String title, int widht, int height) {
-        super(widht, height);
+    public CustomFrame(String title) {
         frame = new JFrame(title);
     }
 
@@ -26,7 +25,7 @@ public class CustomFrame extends Image{
         }
     }
 
-    JButton button = new JButton();
+    JButton BoutonTest = new JButton();
     JLabel label = new JLabel();
 
 }

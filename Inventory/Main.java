@@ -2,7 +2,7 @@ package Inventory;
 
 public class Main {
     public static void main(String[] args) {
-        CustomFrame frame = new CustomFrame("Inventaire du jeu", 300, 300);
+        CustomFrame frame = new CustomFrame("Inventaire du jeu");
         frame.setSize(250, 250);
         frame.setDefaultClose(true);
         frame.setVisibility(true);
