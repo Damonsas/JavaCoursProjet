@@ -1,12 +1,18 @@
 package TPLudothèque.src.fr.eni.poo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Jeu {
 	private int id;
 	private String titre;
 	private Etat etat;
 	private int age;
     private String description;
-    
+
+    private List<Emprunt> emprunts = new ArrayList<>();
+
+
     // Constructeur
 
     public Jeu() {
@@ -21,7 +27,9 @@ public abstract class Jeu {
         this.age = age;
         this.description = description;
     }
-    
+
+
+
     // Getters et setters
     public int getId() {
         return id;
@@ -62,6 +70,19 @@ public abstract class Jeu {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public List<Emprunt> getEmprunts() {
+        return emprunts;
+    }
+
+    public void setEmprunts(List<Emprunt> emprunts) {
+        this.emprunts = emprunts;
+    }
+
+    public  void ajouterEmprunt(Emprunt emprunt) {
+        this.emprunts.add(emprunt);
+    }
+
 }
 
 
