@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaCoursProjet.iml" filepath="$PROJECT_DIR$/JavaCoursProjet.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Demo_DEV23_0080B v202408/Demo/M02D01/module02_demo01_Debug/module02_demo01_Debug/module01_demo01_Debug.iml" filepath="$USER_HOME$/Downloads/Demo_DEV23_0080B v202408/Demo/M02D01/module02_demo01_Debug/module02_demo01_Debug/module01_demo01_Debug.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Demo_DEV23_0080B v202408/Demo/M02D02/module02_demo02_test_unitaire/module02_demo02_test_unitaire/module02_demo02_test_unitaire.iml" filepath="$USER_HOME$/Downloads/Demo_DEV23_0080B v202408/Demo/M02D02/module02_demo02_test_unitaire/module02_demo02_test_unitaire/module02_demo02_test_unitaire.iml" />
     </modules>
   </component>
 </project>
