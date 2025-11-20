@@ -4,6 +4,7 @@ import javax.swing.*;
 
 public class CustomFrame {
     private JFrame frame;
+    BoutonTest bouton;
 
     public CustomFrame(String title) {
         frame = new JFrame(title);
@@ -25,8 +26,7 @@ public class CustomFrame {
         }
     }
 
-    JButton BoutonTest = new JButton();
-    JLabel label = new JLabel();
+
 
 }
 
