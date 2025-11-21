@@ -4,7 +4,6 @@ import javax.swing.*;
 
 public class CustomFrame {
     private JFrame frame;
-    BoutonTest bouton;
 
     public CustomFrame(String title) {
         frame = new JFrame(title);
