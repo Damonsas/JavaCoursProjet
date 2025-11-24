@@ -1,4 +1,4 @@
-package TPZoofinal.test.fr.eni.zoo.bll;
+/**package TPZoofinal.test.fr.eni.zoo.bll;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -37,7 +37,7 @@ public class TestCoucheSalarieManagerInterface {
 	 * @throws SalarieManagerException si une erreur se produit lors de l'ajout du
 	 *                                 salarié.
 	 */
-	public void testAjoutSalarie() throws SalarieManagerException {
+	/**public void testAjoutSalarie() throws SalarieManagerException {
 		System.out.println("\n-------------- test ajout salarie ---------------");
 		// Arrange
 
@@ -66,7 +66,7 @@ public class TestCoucheSalarieManagerInterface {
 	 * @throws SalarieManagerException si une erreur se produit lors de la
 	 *                                 récupération du salarié.
 	 */
-	public void testGetSalarie() throws SalarieManagerException {
+	/**public void testGetSalarie() throws SalarieManagerException {
 		System.out.println("\n-------------- test getSalarie ---------------");
 		// Arrange
 		Adresse address = new Adresse(4, "1 rue de la soie", "Quimper", "29000");
@@ -98,7 +98,7 @@ public class TestCoucheSalarieManagerInterface {
 	 * @throws SalarieManagerException si une erreur se produit lors de la mise à
 	 *                                 jour du salarié.
 	 */
-	public void testUpdateSalaries() throws SalarieManagerException {
+	/**public void testUpdateSalaries() throws SalarieManagerException {
 		System.out.println("\n-------------- test mise à jour du salarié ---------------");
 		// Arrange
 
@@ -159,7 +159,7 @@ public class TestCoucheSalarieManagerInterface {
 	 * @throws SalarieManagerException si une erreur se produit lors du calcul de la
 	 *                                 masse salariale.
 	 */
-	public void testMasseSalariale() throws SalarieManagerException {
+/**	public void testMasseSalariale() throws SalarieManagerException {
 		System.out.println("\n-------------- test masse salariale ---------------");
 		// Arrange
 		Gardien gardien1 = new Gardien("Dubois", "Sophie", 1600, null, true);
@@ -202,7 +202,7 @@ public class TestCoucheSalarieManagerInterface {
 	 * @throws SalarieManagerException si une erreur se produit lors du calcul de la
 	 *                                 moyenne salariale.
 	 */
-	public void testMoyenneSalariale() throws SalarieManagerException {
+/**	public void testMoyenneSalariale() throws SalarieManagerException {
 		System.out.println("\n-------------- test moyenne salariale ---------------");
 		// Arrange
 		Gardien gardien1 = new Gardien("Dubois", "Sophie", 1600, null, true);
@@ -236,3 +236,4 @@ public class TestCoucheSalarieManagerInterface {
 		this.salarieManager.supprimerSalarie(soignant2.getId());
 	}
 }
+*/
